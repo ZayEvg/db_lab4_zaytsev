@@ -16,5 +16,5 @@ CALL pers_info('Keqing');
 -- ко всем значениям столбца pers_feature
 INSERT INTO Personagecopy(pers_name, pers_weapon, pers_feature, pers_main_role)
 VALUES ('Diluc', 'Claymore', 'Pyro', 'DPS');
-DELETE FROM Personage WHERE pers_name = 'Diluc';
+DELETE FROM Personagecopy WHERE pers_name = 'Diluc';
 SELECT * FROM Personagecopy;
