@@ -49,6 +49,7 @@ ALTER TABLE Personage ADD CONSTRAINT PK_Personage PRIMARY KEY (pers_name);
 ALTER TABLE Weapon ADD CONSTRAINT PK_Weapon PRIMARY KEY (weapon_name);
 ALTER TABLE Feature ADD CONSTRAINT PK_Feature PRIMARY KEY (feature_name);
 ALTER TABLE Main_role ADD CONSTRAINT PK_main_role PRIMARY KEY (main_role_name);
+ALTER TABLE Main_role_list ADD CONSTRAINT PK_main_role_list PRIMARY KEY (main_role_name);
 
 ----------------------
 -- Define foreign keys
