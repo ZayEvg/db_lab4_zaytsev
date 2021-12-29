@@ -60,5 +60,5 @@ ALTER TABLE Personage ADD CONSTRAINT FK_Personage_Feature FOREIGN KEY (pers_feat
 REFERENCES Feature (feature_name);
 ALTER TABLE Personage ADD CONSTRAINT FK_Personage_Main_role_list FOREIGN KEY (pers_main_role)
 REFERENCES Main_role_list (main_role_name);
-ALTER TABLE Personage ADD CONSTRAINT FK_Main_role_list_Main_role FOREIGN KEY (pers_main_role)
+ALTER TABLE Main_role_list ADD CONSTRAINT FK_Main_role_list_Main_role FOREIGN KEY (pers_main_role)
 REFERENCES Main_role (main_role_name);
