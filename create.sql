@@ -3,8 +3,8 @@
 -------------------------
 CREATE TABLE Personage
 (
-	pers_name		char(30) NOT NULL,
-	pers_weapon		char(20) NOT NULL,
+	pers_name	char(30) NOT NULL,
+	pers_weapon	char(20) NOT NULL,
 	pers_feature	char(20) NOT NULL,
 	pers_main_role	char(20) NULL
 );
@@ -14,7 +14,7 @@ CREATE TABLE Personage
 -----------------------
 CREATE TABLE Weapon
 (
-	weapon_name		char(20) NOT NULL
+	weapon_name	char(20) NOT NULL
 );
 
 -----------------------
